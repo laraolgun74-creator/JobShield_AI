@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+.streamlit/secrets.toml
+
+# Keep raw and processed data out of Git
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Keep model binaries out of Git unless deliberately reviewed
+models/*
+!models/README.md
+*.joblib
+*.pkl
+*.pickle
