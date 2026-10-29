@@ -204,6 +204,21 @@ analysis.loc[
 ] = "True Negative"
 
 
+# Hatalı ve doğru tahminlerde eksik alan oranlarını karşılaştır.
+missing_columns = [
+    "company_profile",
+    "requirements",
+    "description",
+]
+
+print("\nEksik alan oranları - tüm test kümesi:")
+missing_summary = (
+    analysis.groupby("error_type")[missing_columns]
+    .apply(lambda group: group.isna().mean().mul(100).round(1))
+)
+
+print(missing_summary.to_string())
+
 # 7. Yanlış sınıflandırılan ilanları CSV'ye kaydet
 errors = analysis.loc[~analysis["correct_prediction"]].copy()
 
@@ -227,6 +242,39 @@ columns_to_export = [
 errors_path = REPORTS_DIR / "error_analysis.csv"
 errors[columns_to_export].to_csv(errors_path, index=False)
 
+
+# Eksik alan durumuna göre yanlış sınıflandırma oranları
+print("\nEksik alan durumuna göre hata oranları:")
+
+analysis["has_company_profile"] = (
+    analysis["company_profile"].notna()
+)
+analysis["has_requirements"] = (
+    analysis["requirements"].notna()
+)
+
+for feature, label in [
+    ("has_company_profile", "Şirket profili"),
+    ("has_requirements", "Gereksinimler"),
+]:
+    print(f"\n{label}:")
+
+    summary = (
+        analysis.groupby(feature, dropna=False)
+        .agg(
+            ilan_sayisi=("correct_prediction", "size"),
+            hata_sayisi=("correct_prediction", lambda s: (~s).sum()),
+            hata_orani=("correct_prediction", lambda s: (~s).mean() * 100),
+        )
+        .round(2)
+    )
+
+    summary.index = summary.index.map({
+        True: "Dolu",
+        False: "Eksik",
+    })
+
+    print(summary.to_string())
 
 # 8. Sonuç sayılarını yazdır
 cm = confusion_matrix(y_test, y_pred, labels=[0, 1])
