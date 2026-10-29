@@ -21,3 +21,6 @@ models/*
 *.joblib
 *.pkl
 *.pickle
+
+# Keep error analysis records with job posting text out of Git
+reports/error_analysis.csv
