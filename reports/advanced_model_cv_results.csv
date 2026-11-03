@@ -1,0 +1,13 @@
+model,parameters,fold,f1_score,training_time_seconds
+Random Forest,"{'n_estimators': 200, 'max_depth': 15, 'min_samples_leaf': 2}",1,0.6125211505922166,0.73
+Random Forest,"{'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 2}",1,0.7373271889400922,1.11
+XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.8}",1,0.6599326599326599,0.97
+XGBoost,"{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05, 'subsample': 0.8}",1,0.7595505617977528,2.42
+Random Forest,"{'n_estimators': 200, 'max_depth': 15, 'min_samples_leaf': 2}",2,0.6090225563909775,0.74
+Random Forest,"{'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 2}",2,0.6997389033942559,1.22
+XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.8}",2,0.6159554730983302,1.09
+XGBoost,"{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05, 'subsample': 0.8}",2,0.676923076923077,2.62
+Random Forest,"{'n_estimators': 200, 'max_depth': 15, 'min_samples_leaf': 2}",3,0.5026929982046678,0.72
+Random Forest,"{'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 2}",3,0.5854922279792746,1.07
+XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.8}",3,0.5820642978003384,0.95
+XGBoost,"{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05, 'subsample': 0.8}",3,0.7348837209302326,2.45

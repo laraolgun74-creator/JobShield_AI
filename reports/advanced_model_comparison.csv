@@ -1,0 +1,3 @@
+model,parameters,accuracy,precision,recall,f1_score,training_time_seconds
+Random Forest,"{'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 2}",0.9711968680089486,0.7692307692307693,0.5780346820809249,0.6600660066006601,1.65
+XGBoost,"{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05, 'subsample': 0.8}",0.9787472035794184,0.8211920529801324,0.7167630057803468,0.7654320987654321,2.71
