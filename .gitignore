@@ -22,5 +22,8 @@ models/*
 *.pkl
 *.pickle
 
+# Include the final application model
+!models/combined_model.joblib
+
 # Keep error analysis records with job posting text out of Git
 reports/error_analysis.csv

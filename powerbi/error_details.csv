@@ -1,0 +1,85 @@
+title,actual_label,predicted_label,error_type
+Specialist Obs/Gyn,0,1,False Positive
+Shipping Clerk,0,1,False Positive
+Customer Service Professional - Property Management Industry Exp.,0,1,False Positive
+Part Time Quickbooks Bookkeeper,0,1,False Positive
+Asistente Administrativa,0,1,False Positive
+Order Entry Ninja Full-time and Part-time,0,1,False Positive
+RECEPTIONNIST,0,1,False Positive
+Junior Accountant ,0,1,False Positive
+Sales Consultant,0,1,False Positive
+Reception/Administrative Assistant,0,1,False Positive
+HR Executive,0,1,False Positive
+Marketing Intern,0,1,False Positive
+Customer Assistant,1,0,False Negative
+Senior Quality Control Inspector,0,1,False Positive
+Customer Service Representative ,0,1,False Positive
+Customer Service Representative,1,0,False Negative
+Accounting Assistant,0,1,False Positive
+Websphere Architect,0,1,False Positive
+CARETAKER COUPLE LIVE IN,0,1,False Positive
+Business Manager,0,1,False Positive
+Sales Consultant,0,1,False Positive
+Military Benefits Advocate,1,0,False Negative
+Referrals Specialist,0,1,False Positive
+Structural Engineer,0,1,False Positive
+Ticket Booth Agent,0,1,False Positive
+ Jr. Business Analyst & Quality Analyst (entry level),0,1,False Positive
+Assistant Manager,0,1,False Positive
+Urgent position for SQL BI Tester,1,0,False Negative
+Customer Service Representative,0,1,False Positive
+Customer Service Representative,0,1,False Positive
+Structural Designer,1,0,False Negative
+Subsea Controls Engineer ,1,0,False Negative
+Administrative Assistant,0,1,False Positive
+Fleet Operations Manager,0,1,False Positive
+Ux desgin,1,0,False Negative
+Interior Designer,0,1,False Positive
+Junior Pa ,0,1,False Positive
+Accounting Clerk $15/hr,0,1,False Positive
+Office Administrator / Bookeeper,0,1,False Positive
+Production Operator,0,1,False Positive
+INSTALLERS NEEDED,0,1,False Positive
+Customer Service Representative ,0,1,False Positive
+Dev-Sales,0,1,False Positive
+Site Solution Designer,0,1,False Positive
+Lawn and Maintenance Contractors ,1,0,False Negative
+Lawn and Maintenance Contractors ,1,0,False Negative
+Lawn and Maintenance Contractors ,1,0,False Negative
+Lawn and Maintenance Contractors ,1,0,False Negative
+Property Preservation Field Crews,1,0,False Negative
+Property Preservation Field Crews,1,0,False Negative
+Property Preservation Field Crews,1,0,False Negative
+Property Preservation Field Crews,1,0,False Negative
+Pick Up Driver Needed!!!,0,1,False Positive
+"Coding Manager & Charge Capture (Chargemaster) Near Bellingham, WA",0,1,False Positive
+Sales Assistant - SAACHI,0,1,False Positive
+Retail Sales Associate - Part Time - Hiring This Week,0,1,False Positive
+Sr. Lawson System Administrator (Hospital near the Dallas Area),0,1,False Positive
+Human Resources Administrator,0,1,False Positive
+Customer Service position,1,0,False Negative
+Caregiver,0,1,False Positive
+Software Engineer - Algorithmic Trading,0,1,False Positive
+Operating Room Technician,0,1,False Positive
+Inventory Taker 11/hr to start ,0,1,False Positive
+Machine Maintenance Technician,0,1,False Positive
+Meditech Lab LIS Analyst,0,1,False Positive
+Sales Support Representative/ $20hr,0,1,False Positive
+Patient Advocate,0,1,False Positive
+Crew Members - Hiring now!,0,1,False Positive
+Receptionist | Administrative Assistant,0,1,False Positive
+Senior Full-Stack Developer,0,1,False Positive
+Nursing & Therapy Positions- Home Care,1,0,False Negative
+Executive Assistant,0,1,False Positive
+Settlements Coordinator,0,1,False Positive
+Call Center Representative,1,0,False Negative
+work from home,1,0,False Negative
+"Data Entry, Clerical Admin, Administrative Assistant, Customer Service, Accounting, payroll Clerk, Book keeping",1,0,False Negative
+Call Center Representative,1,0,False Negative
+Lawn and Maintenance Contractors ,1,0,False Negative
+Property Preservation Field Crews,1,0,False Negative
+Call Center Representative,1,0,False Negative
+Lawn and Maintenance Contractors ,1,0,False Negative
+Intern Development Assistant,1,0,False Negative
+Brand & Logo Design Contest,1,0,False Negative
+CSR,1,0,False Negative

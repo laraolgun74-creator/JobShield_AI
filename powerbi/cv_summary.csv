@@ -1,0 +1,5 @@
+model,parameters,mean_f1,std_f1,mean_training_time,fold_count
+Random Forest,"{'n_estimators': 200, 'max_depth': 15, 'min_samples_leaf': 2}",0.5747455683959539,0.06242387118501939,0.73,3
+Random Forest,"{'n_estimators': 300, 'max_depth': None, 'min_samples_leaf': 2}",0.6741861067712076,0.07907700616448127,1.1333333333333335,3
+XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.05, 'subsample': 0.8}",0.6193174769437761,0.039042896379305476,1.0033333333333332,3
+XGBoost,"{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05, 'subsample': 0.8}",0.7237857865503541,0.042416959164982164,2.4966666666666666,3
